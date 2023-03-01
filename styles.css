@@ -1,1 +1,74 @@
-/* Write your CSS here! */
+#mainHeading {
+    text-align: left;
+    font-size: 70px;
+    background-color: blanchedalmond;
+    color: red;
+    padding: 20px;
+    font-family: garamond
+}
+body {
+    background-color: gainsboro;
+    margin: 8px;
+    display: block;
+    width: 100%
+}
+
+aside {
+    float: right;
+    width: 50%;
+    width: 600px;
+    border: 5px solid green;
+    padding: 20px;
+    margin: 10px;
+    block-size: 50%;
+    background-color: black;
+    color: antiquewhite
+}
+
+article {
+    float: left;
+    width: 50%;
+    block-size: 50%
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.case-study {
+    background-color: black;
+    color: antiquewhite;
+    padding: 20px;
+    margin: 10px
+}
+
+#problem {
+    font-size: 50px;
+    font-family: brush script mt, cursive
+}
+
+#pattern {
+    font-size: 50px;
+    font-family: luminari, fantasy
+}
+
+#closer {
+    font-size: 60px;
+    font-family: palatino;
+    font-weight: bold
+}
+.lead-in {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center
+}
+
+header {
+    text-align: center
+}
+
+.funParagraph {
+    color: green
+}
